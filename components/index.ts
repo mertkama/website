@@ -39,3 +39,7 @@ export const Banner = dynamic(() => import("./Banner/Banner"));
 export const CommunityModerators = dynamic(
   () => import("./CommunityModerators/CommunityModerators")
 );
+
+export const Footer = dynamic(
+  () => import("./Footer/Footer")
+);
